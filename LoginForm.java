@@ -7,32 +7,32 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 class LoginForm extends JFrame implements ActionListener {
-	JPanel panel;
+    JPanel panel;
     JLabel lblname;
     JLabel lblpassword;
     JLabel lblmess;
     JTextField txtname;
     JPasswordField txtpassword;
     JButton btlogin;
-	JPanel panelreg;
-	JLabel lblnamereg;
-	JLabel lblpasswordreg;
-	JLabel lblmessreg;
-	JTextField txtnamereg;
-	JPasswordField txtpasswordreg;
-	JButton btsubmit;
+    JPanel panelreg;
+    JLabel lblnamereg;
+    JLabel lblpasswordreg;
+    JLabel lblmessreg;
+    JTextField txtnamereg;
+    JPasswordField txtpasswordreg;
+    JButton btsubmit;
 
 	LoginForm() {
 		setTitle("Member login and Registration");
-        setSize(630,250);
-        setResizable(false);
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
-        Container content=getContentPane();
-        JDesktopPane des=new JDesktopPane();
+        	setSize(630,250);
+        	setResizable(false);
+        	setDefaultCloseOperation(EXIT_ON_CLOSE);
+        	Container content=getContentPane();
+        	JDesktopPane des=new JDesktopPane();
 
-        //Login form
-        JInternalFrame flog=new JInternalFrame();
-        flog.setSize(300,200);
+        	//Login form
+        	JInternalFrame flog=new JInternalFrame();
+        	flog.setSize(300,200);
 		flog.setLocation(10,2);
 		flog.setTitle("Member Login");
 		lblname=new JLabel("User Name:");
